@@ -1,0 +1,143 @@
+.top {
+	background-image: url(./top.png);
+	width: 1350px;
+	height: 500px;
+}
+.content {
+	margin-left: 205px;
+	margin-top: 32px;
+}
+.custom-header {
+	font-family: Myriad Pro;
+	text-transform: uppercase;
+	font-size: 35px;
+}
+.comment {
+	font-weight: 100;
+	font-family: Myriad Pro;
+	//font-style: light;
+	font-size: 17px;
+	margin-top: -14px;
+}
+.cameras {
+	margin-top: 42px;
+}
+.camera {
+	display: inline-block;
+	width: 299px;
+	height: 269px;
+	outline: 1px #e5e5e5 solid;
+	margin-right: 20px;
+}
+.camera:hover {
+	outline: 5px #f26522 solid;
+	outline-offset: -4px;
+}
+.table-aligner {	   
+	margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+.table-cell-aligner{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;	
+}
+.camera-content {
+	display: inline-block;
+}
+.big-description {
+	font-family: Myriad Pro;	
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: bold;
+	text-decoration: underline;
+	margin-bottom: 0;
+}
+.small-description {
+	font-family: Arial;
+	font-size: 13px;
+}
+q {
+	quotes: "\00ab" "\00bb";
+}
+.select-photo-courses {
+	margin-top: 60px;
+}
+.courses {
+	margin-top: 32px;	
+}
+.cource {
+	display: inline-block;
+	width: 460px;
+	height: 362px;
+	outline: 1px #e5e5e5 solid;
+	margin-right: 20px;
+}
+.cource:hover {
+	outline: 5px #f26522 solid;
+	outline-offset: -4px;
+}
+.start-training {
+	margin-top: 62px;
+}
+.find-promocode {
+	margin-top: -4px;
+}
+.custom-link {
+	border-bottom: dashed 1px;
+	text-decoration: none;
+	color: #0f91ff;
+	font-family: Myriad Pro;
+	font-size: 18px;
+}
+.new-user-text {	
+	font-family: Myriad Pro;
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: bold;
+}
+.new-user-input {
+	border: 1px solid grey;
+	height: 47px;
+	font-size: 47px;
+}
+.email-input {
+	width: 396px;
+}
+.code-input {
+	width: 166px;
+}
+.form-block {
+	display: inline-block;
+	margin-right: 79px;
+}
+.hint {
+	font-family: Arial;
+	font-style: normal;
+	font-size: 13px;
+	color: #848484;
+}
+.form-submit {
+	width: 381px;
+	height: 58px;
+	background-color: #5e9800;
+	border: none;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 20px;
+	color: white;
+}
+.footer-line {
+	width: 940px;
+	margin-left: -53px;
+	color: #e5e5e5;
+}
+footer {
+	font-family: Arial;
+	font-style: normal;
+	font-size: 13px;
+	color: #495459;
+}
