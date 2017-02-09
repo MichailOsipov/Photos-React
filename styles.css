@@ -3,21 +3,52 @@
 	width: 1350px;
 	height: 500px;
 }
+.top-content {
+	margin-left: 205px;
+	padding-top: 25px;
+}
+.big-header {
+	font-family: Arial;
+	font-size: 40px;
+	font-weight: bold;
+	color: white;
+	text-transform: uppercase;
+}
+
+.top__text {
+	font-family: Myriad Pro;
+	font-size: 45px;
+	color: white;
+}
+.top__light-text {
+	font-weight: 100;
+	margin-top: 147px;
+}
+.top__bold-text {
+	font-weight: bold;
+	margin-top: -55px;
+}
+.top__comment {
+	font-family: Myriad Pro;
+	font-size: 26px;
+	font-weight: 100;
+	color: white;
+	margin-top: -22px;
+}
 .content {
 	margin-left: 205px;
 	margin-top: 32px;
 }
 .custom-header {
 	font-family: Myriad Pro;
-	text-transform: uppercase;
 	font-size: 35px;
+	text-transform: uppercase;
 }
 .comment {
 	font-weight: 100;
 	font-family: Myriad Pro;
-	//font-style: light;
 	font-size: 17px;
-	margin-top: -14px;
+	margin-top: -16px;
 }
 .cameras {
 	margin-top: 42px;
@@ -54,17 +85,27 @@
 	font-size: 15px;
 	font-weight: bold;
 	text-decoration: underline;
-	margin-bottom: 0;
+}
+.average-description {
+	font-family: Arial;
+	font-size: 16px;
+	font-weight: bold;
 }
 .small-description {
 	font-family: Arial;
 	font-size: 13px;
 }
+.camera-1-description{
+	margin-bottom: 0px;
+}
+.none-margin-top {
+	margin-top: 0px;
+}
 q {
 	quotes: "\00ab" "\00bb";
 }
 .select-photo-courses {
-	margin-top: 60px;
+	margin-top: 61px;
 }
 .courses {
 	margin-top: 32px;	
@@ -76,12 +117,15 @@ q {
 	outline: 1px #e5e5e5 solid;
 	margin-right: 20px;
 }
+.cource-1-description {
+	margin-top: 0px;
+}
 .cource:hover {
 	outline: 5px #f26522 solid;
 	outline-offset: -4px;
 }
 .start-training {
-	margin-top: 62px;
+	margin-top: 70px;
 }
 .find-promocode {
 	margin-top: -4px;
@@ -93,6 +137,32 @@ q {
 	font-family: Myriad Pro;
 	font-size: 18px;
 }
+.promocode-background {
+	width: 1350px; /*тут скорее всего нужно по-другому*/
+	height: 279px;
+	background-color: #ebebeb;
+	margin-left: -205px;/*тут тоже*/
+	margin-top: 22px;	
+}
+.promocode-content {
+	display: inline-block;
+	margin-left: 205px;
+	margin-top: 25px;
+}
+.promocode-image {
+	display: inline-block;
+}
+.promocode-description {
+	display: inline-block;
+	vertical-align:top;
+	margin-left: -103px;
+}
+.promocode-description p:first-child {
+	margin-top: -2px;
+}
+.new-user {
+	margin-top: 40px;
+}
 .new-user-text {	
 	font-family: Myriad Pro;
 	text-transform: uppercase;
@@ -102,7 +172,8 @@ q {
 .new-user-input {
 	border: 1px solid grey;
 	height: 47px;
-	font-size: 47px;
+	font-size: 35px;
+	margin-top: 5px;
 }
 .email-input {
 	width: 396px;
@@ -119,6 +190,7 @@ q {
 	font-style: normal;
 	font-size: 13px;
 	color: #848484;
+	margin-top: 5px;
 }
 .form-submit {
 	width: 381px;
@@ -129,15 +201,21 @@ q {
 	font-weight: bold;
 	font-size: 20px;
 	color: white;
-}
-.footer-line {
-	width: 940px;
-	margin-left: -53px;
-	color: #e5e5e5;
+	margin-top: 12px;	
 }
 footer {
 	font-family: Arial;
 	font-style: normal;
 	font-size: 13px;
 	color: #495459;
+	margin-top: 146px;
+}
+.footer-line {
+	width: 940px;
+	margin-left: -53px;
+	color: #e5e5e5;
+}
+.copyright {
+	margin-left: -12px;
+	margin-top: 26px;
 }
