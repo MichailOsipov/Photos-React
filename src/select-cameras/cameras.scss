@@ -1,0 +1,23 @@
+.select-camera-model {
+	margin-top: 32px;
+}
+.cameras {
+	margin-top: 42px;	
+}
+.camera {
+	display: inline-block;
+	width: 299px;
+	height: 269px;
+	outline: 1px #e5e5e5 solid;
+	margin-right: 20px;
+}
+.camera:hover {
+	outline: 5px #f26522 solid;
+	outline-offset: -4px;
+}
+.camera-content {
+	display: inline-block;
+}
+.camera-1-description{
+	margin-bottom: 0px;
+}

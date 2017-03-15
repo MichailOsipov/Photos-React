@@ -1,0 +1,36 @@
+.start-training {
+	margin-top: 70px;
+}
+.find-promocode {
+	margin-top: -4px;
+}
+.custom-link {
+	border-bottom: dashed 1px;
+	text-decoration: none;
+	color: #0f91ff;
+	font-family: Myriad Pro;
+	font-size: 18px;
+}
+.promocode-background {
+	width: 1350px; /*тут скорее всего нужно по-другому*/
+	height: 279px;
+	background-color: #ebebeb;
+	margin-left: -205px;/*тут тоже*/
+	margin-top: 22px;	
+}
+.promocode-content {
+	display: inline-block;
+	margin-left: 205px;
+	margin-top: 25px;
+}
+.promocode-image {
+	display: inline-block;
+}
+.promocode-description {
+	display: inline-block;
+	vertical-align:top;
+	margin-left: -103px;
+}
+.promocode-description p:first-child {
+	margin-top: -2px;
+}

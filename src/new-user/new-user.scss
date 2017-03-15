@@ -1,0 +1,43 @@
+.new-user {
+	margin-top: 40px;
+}
+.new-user-text {	
+	font-family: Myriad Pro;
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: bold;
+}
+.new-user-input {
+	border: 1px solid grey;
+	height: 47px;
+	font-size: 35px;
+	margin-top: 5px;
+}
+.email-input {
+	width: 396px;
+}
+.code-input {
+	width: 166px;
+}
+.form-block {
+	display: inline-block;
+	margin-right: 79px;
+}
+.hint {
+	font-family: Arial;
+	font-style: normal;
+	font-size: 13px;
+	color: #848484;
+	margin-top: 5px;
+}
+.form-submit {
+	width: 381px;
+	height: 58px;
+	background-color: #5e9800;
+	border: none;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 20px;
+	color: white;
+	margin-top: 12px;	
+}
