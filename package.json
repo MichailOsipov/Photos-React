@@ -6,6 +6,7 @@
     "babel-preset-react": "^6.16.0",
     "babel-preset-stage-2": "^6.22.0",
     "css-loader": "^0.26.1",
+    "es6-enum": "^1.1.0",
     "extract-text-webpack-plugin": "^1.0.1",
     "file-loader": "^0.10.0",
     "node-sass": "^4.2.0",
@@ -26,15 +27,19 @@
   "browser": {
     "photo-page": "./src/photo-page/photo-page",
     "header": "./src/header/header",
-	"cameras": "./src/cameras/cameras",
+    "cameras": "./src/cameras/cameras",
+	"cources": "./src/cources/cources",
     "select-camera": "./src/select-camera/select-camera",
     "select-cameras": "./src/select-cameras/select-cameras",
-    "photo-cource": "./src/photo-cource/photo-cource",
-    "photo-cources": "./src/photo-cources/photo-cources",
+    "select-cameras-container": "./src/select-cameras-container/select-cameras-container",
+    "select-photo-cource": "./src/select-photo-cource/select-photo-cource",
+    "select-photo-cources": "./src/select-photo-cources/select-photo-cources",
+    "select-photo-cources-container": "./src/select-photo-cources-container/select-photo-cources-container",
     "start-training": "./src/start-training/start-training",
     "new-user": "./src/new-user/new-user",
     "footer": "./src/footer/footer",
     "select-blocks-reducer": "./src/select-blocks-reducer/select-blocks-reducer",
-    "cameras-and-cources-reducer": "./src/cameras-and-cources-reducer/cameras-and-cources-reducer"
+    "cameras-and-cources-reducer": "./src/cameras-and-cources-reducer/cameras-and-cources-reducer",
+	"status-enum": "./src/status-enum/status-enum"
   }
 }

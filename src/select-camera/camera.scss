@@ -1,0 +1,28 @@
+.camera {
+	display: inline-block;
+	width: 299px;
+	height: 269px;
+	outline: 1px #e5e5e5 solid;
+	margin-right: 20px;
+}
+.camera-inactive {
+	opacity: 0.5;
+}
+.camera-active {
+	outline: 5px #f26522 solid;
+	outline-offset: -4px;
+	color: #f26522;
+	text-decoration: none;
+}
+.camera:hover {
+	outline: 5px #f26522 solid;
+	outline-offset: -4px;
+	color: #f26522;
+	text-decoration: none;
+}
+.camera-content {
+	display: inline-block;
+}
+.camera-1-description{
+	margin-bottom: 0px;
+}

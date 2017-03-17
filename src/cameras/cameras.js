@@ -1,13 +1,16 @@
-import React from 'react';
+﻿import React from 'react';
 import ReactDOM from 'react-dom';
+
+import STATUS_ENUM from 'status-enum';
 
 import camera1Url from './images/camera-1.png';
 import camera2Url from './images/camera-2.png';
 import camera3Url from './images/camera-3.png';
 
-const cameras = [
+let cameras = [
 	{
 		id: 1,
+		status: STATUS_ENUM.DEFAULT,
 		imageUrl: camera1Url,
 		imageAlt: "camera-1",
 		description: <p className="big-description camera-1-description">Беззеркальные камеры<br />
@@ -16,6 +19,7 @@ const cameras = [
 	},
 	{
 		id: 2,
+		status: STATUS_ENUM.DEFAULT,		
 		imageUrl: camera2Url,
 		imageAlt: "camera-2",
 		description: <p className="big-description">Зеркальные фотокамеры<br />
@@ -24,6 +28,7 @@ const cameras = [
 	},
 	{
 		id: 3,
+		status: STATUS_ENUM.DEFAULT,
 		imageUrl: camera3Url,
 		imageAlt: "camera-3",
 		description: <p className="big-description">Полнокадровые камеры<br />

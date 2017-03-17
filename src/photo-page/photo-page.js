@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import Header from 'header';
-import SelectCameras from 'select-cameras';
-import PhotoCources from 'photo-cources';
+import SelectCamerasContainer from 'select-cameras-container';
+import SelectPhotoCourcesContainer from 'select-photo-cources-container';
 import StartTraining from 'start-training';
 import NewUser from 'new-user';
 import Footer from 'footer';
@@ -18,8 +18,8 @@ export default class PhotoPage extends React.Component {
 				<Header/>
 				//исправь тут
 				<div className="content">
-					<SelectCameras/>
-					<PhotoCources/>
+					<SelectCamerasContainer/>
+					<SelectPhotoCourcesContainer/>
 					<StartTraining/>
 					<NewUser/>				
 					<Footer/>

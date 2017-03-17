@@ -41,14 +41,6 @@
   margin-top: -22px;
 }
 
-.select-camera-model {
-  margin-top: 32px;
-}
-
-.cameras {
-  margin-top: 42px;
-}
-
 .camera {
   display: inline-block;
   width: 299px;
@@ -57,9 +49,22 @@
   margin-right: 20px;
 }
 
+.camera-inactive {
+  opacity: 0.5;
+}
+
+.camera-active {
+  outline: 5px #f26522 solid;
+  outline-offset: -4px;
+  color: #f26522;
+  text-decoration: none;
+}
+
 .camera:hover {
   outline: 5px #f26522 solid;
   outline-offset: -4px;
+  color: #f26522;
+  text-decoration: none;
 }
 
 .camera-content {
@@ -70,12 +75,12 @@
   margin-bottom: 0px;
 }
 
-.select-photo-courses {
-  margin-top: 61px;
+.select-camera-model {
+  margin-top: 32px;
 }
 
-.courses {
-  margin-top: 32px;
+.cameras {
+  margin-top: 42px;
 }
 
 .cource {
@@ -86,6 +91,15 @@
   margin-right: 20px;
 }
 
+.cource-active {
+  outline: 5px #f26522 solid;
+  outline-offset: -4px;
+}
+
+.cource-inactive {
+  opacity: 0.5;
+}
+
 .cource-1-description {
   margin-top: 0px;
 }
@@ -93,6 +107,14 @@
 .cource:hover {
   outline: 5px #f26522 solid;
   outline-offset: -4px;
+}
+
+.select-photo-courses {
+  margin-top: 61px;
+}
+
+.courses {
+  margin-top: 32px;
 }
 
 @charset "UTF-8";
