@@ -9,6 +9,7 @@ export default class SelectCamera extends React.Component {
 	constructor(props){
 		super(props);
 		this.generateCameraClass = this.generateCameraClass.bind(this);
+		this.generateCameraContentClass = this.generateCameraContentClass.bind(this);
 	}	
 	
 	generateCameraClass() {
@@ -22,6 +23,16 @@ export default class SelectCamera extends React.Component {
 		}
 	}
 	
+	generateCameraContentClass() {
+		switch (this.props.status) {
+			case STATUS_ENUM.ACTIVE: 
+				return "camera-content camera-content-active";
+			case STATUS_ENUM.DEFAULT:
+				return "camera-content camera-content-inactive";
+			case STATUS_ENUM.INACTIVE:
+				return "camera-content camera-content-inactive";
+		}
+	}
 	render() {
 		return (
 			<div 
@@ -29,7 +40,7 @@ export default class SelectCamera extends React.Component {
 				onClick={this.props.onClick}>
 				<div className="table-aligner">
 					<div className="table-cell-aligner">
-						<div className="camera-content">							
+						<div className={this.generateCameraContentClass()}>							
 							<img src={this.props.imageUrl} alt={this.props.imageAlt} />
 							{this.props.description}
 						</div>

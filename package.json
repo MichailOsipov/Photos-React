@@ -37,6 +37,7 @@
     "select-photo-cources-container": "./src/select-photo-cources-container/select-photo-cources-container",
     "start-training": "./src/start-training/start-training",
     "new-user": "./src/new-user/new-user",
+	"new-user-container": "./src/new-user-container/new-user-container",
     "footer": "./src/footer/footer",
     "select-blocks-reducer": "./src/select-blocks-reducer/select-blocks-reducer",
     "cameras-and-cources-reducer": "./src/cameras-and-cources-reducer/cameras-and-cources-reducer",

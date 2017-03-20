@@ -1,16 +1,5 @@
-.content {
-	margin-left: 205px;
-}
-.custom-header {
-	font-family: Myriad Pro;
-	font-size: 35px;
-	text-transform: uppercase;
-}
-.comment {
-	font-weight: 100;
-	font-family: Myriad Pro;
-	font-size: 17px;
-	margin-top: -16px;
+body {
+	margin-top: 0px;
 }
 .table-aligner {	   
 	margin: 0;
@@ -23,23 +12,6 @@
     display: table-cell;
     text-align: center;
     vertical-align: middle;	
-}
-
-.big-description {
-	font-family: Myriad Pro;	
-	text-transform: uppercase;
-	font-size: 15px;
-	font-weight: bold;
-	text-decoration: underline;
-}
-.average-description {
-	font-family: Arial;
-	font-size: 16px;
-	font-weight: bold;
-}
-.small-description {
-	font-family: Arial;
-	font-size: 13px;
 }
 .none-margin-top {
 	margin-top: 0px;

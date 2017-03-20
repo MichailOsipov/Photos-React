@@ -13,8 +13,8 @@ export default class SelectCameras extends React.Component {
 	render() {
 		return (
 			<div className="select-camera-model">
-				<h1 className="custom-header">1. Выберите модель вашей камеры Sony</h1>
-				<p className="comment">Чтобы выбрать подходящий интерактивный курс фотографии, укажите модель вашей фотокамеры Sony</p>
+				<h1 className="select-camera-model__header">1. Выберите модель вашей камеры Sony</h1>
+				<p className="select-camera-model__comment">Чтобы выбрать подходящий интерактивный курс фотографии, укажите модель вашей фотокамеры Sony</p>
 				<div className="cameras">
 					{this.props.cameras.map(camera => 
 							<SelectCamera

@@ -9,9 +9,9 @@ export default class Footer extends React.Component {
 	}	
 	render() {
 		return (
-			<footer>
-				<hr className="footer-line" />
-				<div className="copyright">&copy; 2014 - 2015. Все права защищены</div>
+			<footer className="footer">
+				<hr className="footer_line" />
+				<div className="copyright copyright_text">&copy; 2014 - 2015. Все права защищены</div>
 			</footer>
 		);
 	}

@@ -1,36 +1,37 @@
-.new-user {
-	margin-top: 40px;
+.new-user-form {
+	margin-top: 40px;	
+	margin-left: 205px;
 }
-.new-user-text {	
+.new-user-input-block {
+	display: inline-block;
+	margin-right: 79px;
+}
+.new-user-input-block__label {	
 	font-family: Myriad Pro;
 	text-transform: uppercase;
 	font-size: 15px;
 	font-weight: bold;
 }
-.new-user-input {
+.new-user-input-block__input {
 	border: 1px solid grey;
 	height: 47px;
 	font-size: 35px;
 	margin-top: 5px;
 }
-.email-input {
+.new-user-input-block__input_email-input {
 	width: 396px;
 }
-.code-input {
+.new-user-input-block__input_code-input {
 	width: 166px;
 }
-.form-block {
-	display: inline-block;
-	margin-right: 79px;
-}
-.hint {
+.new-user-form__hint {
 	font-family: Arial;
 	font-style: normal;
 	font-size: 13px;
 	color: #848484;
 	margin-top: 5px;
 }
-.form-submit {
+.new-user-form__form-submit {
 	width: 381px;
 	height: 58px;
 	background-color: #5e9800;
@@ -40,4 +41,12 @@
 	font-size: 20px;
 	color: white;
 	margin-top: 12px;	
+}
+.new-user-input-block_checked {
+	line-height: 100%;
+	margin-left: 10px;
+	margin-right: -30px;
+}
+.new-user-input-block_hidden {
+	display: none;
 }

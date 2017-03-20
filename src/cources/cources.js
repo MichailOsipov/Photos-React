@@ -12,8 +12,8 @@ let photoCources = [
 		status: STATUS_ENUM.DEFAULT,
 		imageUrl: cource1Url,
 		imageAlt: "cource-1",
-		bigDescription: <p className="big-description ">Зеркальные камеры SONY. Основы фотографии.</p>,
-		smallDescription: <p className="small-description">Знакомство с вашей фотокамерой<br />
+		bigDescription: <p>Зеркальные камеры SONY. Основы фотографии.</p>,
+		smallDescription: <p>Знакомство с вашей фотокамерой<br />
 							Изучаем основные настройки<br />
 							Съемка в автоматическом режиме<br />
 							Советы начинающим фотографам</p>
@@ -23,8 +23,8 @@ let photoCources = [
 		status: STATUS_ENUM.DEFAULT,
 		imageUrl: cource2Url,
 		imageAlt: "cource-2",
-		bigDescription: <p className="big-description">Фотография с SONY. Продвинутый курс.</p>,
-		smallDescription: <p className="small-description">Композиция. Работа с кадром<br />
+		bigDescription: <p>Фотография с SONY. Продвинутый курс.</p>,
+		smallDescription: <p>Композиция. Работа с кадром<br />
 						Съёмка в различных условиях освещения<br />
 						Снимаем уличный портрет<br />
 						Пейзажная фотография</p>

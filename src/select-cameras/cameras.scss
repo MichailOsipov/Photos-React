@@ -1,5 +1,17 @@
 .select-camera-model {
 	margin-top: 32px;
+	margin-left: 205px;
+}
+.select-camera-model__header {
+	font-family: Myriad Pro;
+	font-size: 35px;
+	text-transform: uppercase;
+}
+.select-camera-model__comment {
+	font-weight: 100;
+	font-family: Myriad Pro;
+	font-size: 17px;
+	margin-top: -16px;
 }
 .cameras {
 	margin-top: 42px;	

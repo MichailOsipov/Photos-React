@@ -30,8 +30,8 @@ const selectBlocksReducer = (state = [], action) => {
 
 const selectCamerasReducer = (state = [], action) => {
 	return action.blockToChange === 'camera' ? selectBlocksReducer(state, action) : state;
-}
+};
 const selectCourcesReducer = (state = [], action) => {
 	return action.blockToChange === 'photo-cource' ? selectBlocksReducer(state, action) : state;
-}
+};
 export {selectBlocksReducer, selectCamerasReducer, selectCourcesReducer};

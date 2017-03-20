@@ -1,27 +1,30 @@
 .camera {
+	margin-right: 20px;
 	display: inline-block;
 	width: 299px;
 	height: 269px;
 	outline: 1px #e5e5e5 solid;
-	margin-right: 20px;
+}
+.camera-active, .camera:hover {
+	outline: 5px #f26522 solid;
+	outline-offset: -4px;
+	color: #f26522;
 }
 .camera-inactive {
 	opacity: 0.5;
 }
-.camera-active {
-	outline: 5px #f26522 solid;
-	outline-offset: -4px;
-	color: #f26522;
-	text-decoration: none;
-}
-.camera:hover {
-	outline: 5px #f26522 solid;
-	outline-offset: -4px;
-	color: #f26522;
-	text-decoration: none;
-}
 .camera-content {
 	display: inline-block;
+	font-family: Myriad Pro;	
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: bold;
+}
+.camera-content-inactive {
+	text-decoration: underline;
+}
+.camera-content-active, .camera-content:hover {	
+	text-decoration: none;
 }
 .camera-1-description{
 	margin-bottom: 0px;

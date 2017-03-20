@@ -1,29 +1,44 @@
 .start-training {
-	margin-top: 70px;
+	margin-top: 70px;	
+	margin-left: 205px;
+}
+.start-training__header {
+	font-family: Myriad Pro;
+	font-size: 35px;
+	text-transform: uppercase;
+}
+.start-training__comment {
+	font-weight: 100;
+	font-family: Myriad Pro;
+	font-size: 17px;
+	margin-top: -16px;
 }
 .find-promocode {
 	margin-top: -4px;
 }
-.custom-link {
+.find-promocode__show-guide {
 	border-bottom: dashed 1px;
 	text-decoration: none;
 	color: #0f91ff;
 	font-family: Myriad Pro;
 	font-size: 18px;
 }
-.promocode-background {
+.promocode {
 	width: 1350px; /*тут скорее всего нужно по-другому*/
 	height: 279px;
 	background-color: #ebebeb;
 	margin-left: -205px;/*тут тоже*/
 	margin-top: 22px;	
 }
+.promocode-hidden {
+	display: none;
+}
 .promocode-content {
 	display: inline-block;
 	margin-left: 205px;
 	margin-top: 25px;
 }
-.promocode-image {
+.promocode__image {
 	display: inline-block;
 }
 .promocode-description {
@@ -31,6 +46,13 @@
 	vertical-align:top;
 	margin-left: -103px;
 }
-.promocode-description p:first-child {
+.promocode-description_average {
 	margin-top: -2px;
+	font-family: Arial;
+	font-size: 16px;
+	font-weight: bold;
+}
+.promocode-description_small {
+	font-family: Arial;
+	font-size: 13px;
 }

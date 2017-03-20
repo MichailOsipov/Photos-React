@@ -11,10 +11,10 @@ export default class Header extends React.Component {
 		return (
 			<div className="header">
 				<div className="header-content">
-					<h1 className="big-header">Логотип</h1>
-					<p className="header__text header__light-text">Поздравляем с покупкой</p>
-					<p className="header__text header__bold-text">фотоаппарата SONY</p>
-					<p className="header__comment">Самое время научиться делать потрясающие фотографии,<br />
+					<h1 className="logo">Логотип</h1>
+					<p className="header-content__text header-content__light-text">Поздравляем с покупкой</p>
+					<p className="header-content__text header-content__bold-text">фотоаппарата SONY</p>
+					<p className="header-content__comment">Самое время научиться делать потрясающие фотографии,<br />
 					используя весь потенциал вашей новой фотокамеры</p>
 				</div>
 			</div>
